@@ -43,11 +43,11 @@ In order to get the installer to use this configuration we need to supply additi
 
 ## 1.) Boot the host from the CDROM
 
-![Boot the host from CDROM](assets/images/boot-cdrom.png)
+![Boot the host from CDROM](images/boot-cdrom.png)
 
 ## 2.) Press TAB at installation menu
 
-![Press Tab at installation menu](assets/images/press-tab-at-boot-screen.png)
+![Press Tab at installation menu](images/press-tab-at-boot-screen.png)
 
 ## 3.) Enter ks bootloader argument
 after the word "quiet" add the following: 
@@ -56,18 +56,18 @@ after the word "quiet" add the following:
 ks=https://raw.githubusercontent.com/hamhpc/ISLE-ks/master/ks_ISLE.cfg
 ```
 
-![Enter ks bootloader argument](assets/images/add-kickstart-config.png)
+![Enter ks bootloader argument](images/add-kickstart-config.png)
 
 Press Enter to continue. 
 
 ## 4.) Select Installation Destination
 This step may be optional depending on how your disks are discovered. If it detects a previously installed OS you'll need to tell the software to over-write this old installation. 
 
-![Select Installation Destination](assets/images/select-installation-destination.png)
+![Select Installation Destination](images/select-installation-destination.png)
 
 ### 4a.) Configure for Automatic partition configuration
 
-![Configure for Automatic partition configuration](assets/images/auto-configure-disks.png)
+![Configure for Automatic partition configuration](images/auto-configure-disks.png)
 
 ### 4b.) Delete All
 
@@ -75,29 +75,29 @@ This step may be optional depending on how your disks are discovered. If it dete
 
 ### 4c.) Reclaim Space
 
-![Reclaim Space](assets/images/reclaim-space.png)
+![Reclaim Space](images/reclaim-space.png)
 
 ## 5.) Begin installation
 
-![Begin Installation](assets/images/begin-installation.png)
+![Begin Installation](images/begin-installation.png)
 
 ## 6.) Select Root Password
 
-![Enter Root Password](assets/images/select-root-password.png)
+![Enter Root Password](images/select-root-password.png)
 
 ## 7.) Enter Root Password
 
-![Enter Root Password](assets/images/enter-root-password.png)
+![Enter Root Password](images/enter-root-password.png)
 
 ## 8.) Take a Break
  While the machine is building itself .. take a break as this could take a few minute to complete. Once it's up we'll be ready configure the rest of the ISLE software.
 
-![Starting Installation](assets/images/starting-installation.png)
+![Starting Installation](images/starting-installation.png)
 
 ## 9.) Reboot when complete
 Make sure you remove the CDROM before rebooting the machine. 
 
-![Reboot when complete](assets/images/reboot.png)
+![Reboot when complete](images/reboot.png)
 
 # Initial Login
 
@@ -106,20 +106,18 @@ The host is configured to automatically log into the islandora user account.
 ## 1.) Select Konsole
  Right click the desktop and choose Konsole
 
-![Boot the host from CDROM](assets/images/open-konsole.png)
+![Boot the host from CDROM](images/open-konsole.png)
 
 ## 2.) Start typing commands
 
-![Type commands](assets/images/command-window.png)
+![Type commands](images/command-window.png)
 
 
 
 # Software Information
 
-  * Vrui is located at [https://github.com/KeckCAVES/Vrui](https://github.com/KeckCAVES/Vrui)
-  * Kinect is located at [https://github.com/KeckCAVES/Kinect](https://github.com/KeckCAVES/Kinect)
-  * SARndbox is located at [https://github.com/KeckCAVES/SARndbox](https://github.com/KeckCAVES/SARndbox)
-  * [Complete Installation Instructions](https://arsandbox.ucdavis.edu/forums/topic/complete-installation-instructions/)
+  * ISLANDORA is located at [http://islandora.ca](https://islandora.ca)
+  * 
 
 # Installation Notes
 
