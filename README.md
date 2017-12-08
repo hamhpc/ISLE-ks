@@ -126,7 +126,7 @@ Make sure you remove the CDROM before rebooting the machine.
 
 # (Optional) Install portainer 
 software to manage Docker containers (https://portainer.io)
-login at http://islandora-docker.com:9000
+login at http://<your_host>:9000
 
 ```
 # docker volume create portainer_data
