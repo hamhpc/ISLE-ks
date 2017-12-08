@@ -176,5 +176,6 @@ login at http://<your_host>:9000
 
 # Troubleshooting
 
+ * [ISLE Issues (Bug Reporting)](https://github.com/Islandora-Collaboration-Group/ISLE/issues)
  * [ISLE Forum](https://groups.google.com/forum/#!forum/isle-updates)
  * [ISLANDORA Forum](https://groups.google.com/forum/?utm_source=digest&utm_medium=email#!forum/islandora/topics)
