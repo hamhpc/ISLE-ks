@@ -1,6 +1,7 @@
 # ISLANDORA ISLE Installation on CentOS 7
 
 [ISLE Site](https://islandora-collaboration-group.github.io/ISLE/)
+
 [ISLE Code](https://github.com/Islandora-Collaboration-Group/ISLE)
 
 From the [ISLE](https://islandora-collaboration-group.github.io/ISLE/) site: 
@@ -8,6 +9,7 @@ From the [ISLE](https://islandora-collaboration-group.github.io/ISLE/) site:
 ISLE separates an institution’s customizations from core code, and moves that core code into containers that are easily updated, simplifying and largely automating the process of installation and updates/maintenance of Islandora. ISLE also bundles together the best shared modules into a common, production-ready and security-hardened platform.
 
 [ICG Site](https://islandora-collaboration-group.github.io/)
+
 [ICG Code](https://github.com/Islandora-Collaboration-Group) 
 
 # Why CentOS? 
