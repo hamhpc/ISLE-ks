@@ -99,9 +99,39 @@ Make sure you remove the CDROM before rebooting the machine.
 
 ![Reboot when complete](images/reboot.png)
 
-# Initial Login
+# Login to the Host
 
-The host is configured to automatically log into the islandora user account. 
+# Install docker containers
+
+```
+# docker-compose build mysql
+# docker-compose up -d mysql
+# docker-compose build fedora
+# docker-compose up -d fedora
+# docker-compose build solr
+# docker-compose up -d solr
+# docker-compose build apache
+# docker-compose up -d apache
+```
+
+# tweak the setup and install a site
+
+```
+# docker exec -it isle-apache bash
+#  cd /tmp
+#  chmod 777 *.sh
+#  ./make_site.sh
+#  ./install_site.sh
+```
+
+# (Optional) Install portainer 
+software to manage Docker containers (https://portainer.io)
+login at http://islandora-docker.com:9000
+
+```
+# docker volume create portainer_data
+# docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+```
 
 ## 1.) Select Konsole
  Right click the desktop and choose Konsole
