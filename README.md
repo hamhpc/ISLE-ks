@@ -11,20 +11,26 @@
 
 This is a common issue within the world of Open Source Software. Many developers make the choice to use Ubuntu to develop their applications. It's a choice based on that Ubuntu has a good desktop environment to develop applications with. 
 
-However, in Academics and Academic research programs, many Systems/IT Environments are heavily invested in Red Hat Enterprise Based Operating systems. So Ubuntu is something that isn't as common in the Data Center and skill-sets of IT. As a System's person myself, I do what I can to facilitate this gap between developer's and systems people. This helps everyone as when a researcher comes to IT for help with a project (like this one ARSandbox) it makes it more difficult for IT to try to manage an Operating System they aren't as familiar with.  
+However, in Academics and Academic research programs, many Systems/IT Environments are heavily invested in Red Hat Enterprise Based Operating systems. So Ubuntu is something that isn't as common in the Data Center and skill-sets of IT. As a System's person myself, I do what I can to facilitate this gap between developer's and systems people. This helps everyone as when a researcher comes to IT for help,  it makes it more difficult for IT to try to manage an Operating System they aren't as familiar with.
 
-So, using my expertise with Red Hat based systems and kickstart I have built this procedure so to be able to give back to the open source project (ARSandbox). This contribution will allow other researchers who would like to utilize this research to be able to install and run it on a platform that IT is more familiar with so as to be able to get help from their local IT staff at their organization. 
+So, using my expertise with Red Hat based systems and kickstart I have built this procedure so to be able to give back to the open source project. This contribution will allow other researchers who would like to utilize this project to be able to install and run it on a RedHat based platform. By utilizing a platform that IT is more familiar with, they will be able to get help from their local IT staff at their organization. 
 
-It also helps minimize the steps needed to get this up and running since this automatic procedure will compile and build the software as part of the Operating System installation. This may reduce the need for assistance from IT to assist faculty with their own attempts to build one of these platforms. 
+It also helps minimize the steps needed to get this up and running since this automatic procedure (kickstart) will compile and build the software as part of the Operating System installation. This may reduce the need for assistance from IT to assist faculty with their own attempts to build one of these platforms. 
 
 
 # Requirements 
 
-To make this process as simple as possible, to build the Linux host all you need to do is download the CentOS 7 minimal ISO installer. 
+To make this process as simple as possible to build the Linux host, all you need to do is download the CentOS 7 minimal ISO installer. 
 
 You can download it from one of these [mirrors](http://isoredirect.centos.org/centos/7/isos/x86_64/)
 
 ## Create CDROM
+
+### Virtual CD
+
+If you are using a virtual platform like Virtual Box or VMWare you don't really need to "Burn" the CDROM ISO. You can mount that directly to the virtual machine as a CDROM to boot from it. 
+
+### Traditional CD-ROM Drive
 
 Burn the ISO to a CD so you can boot from it. This is a useful document for [burning ISO's](https://www.centos.org/docs/5/html/CD_burning_howto.html).
 
@@ -32,7 +38,7 @@ On a PC, you can right click the ISO file and choose "Burn image to disk".
 
 ## Booting into a CD/DVD
 
-Most PC BIOS's will allow you to temporarily boot from another medium (USB, CD, etc) by pressing the F12 (or possibly another F key) when the system boots up. This will provide you with a menu of choices to boot from. Select the CDROM/DVD device. 
+Most PC BIOS's will allow you to temporarily boot from another medium (USB, CD, etc) by pressing an F key (ie. F12 or possibly another F key) when the system boots up. This will provide you with a menu of choices to boot from. Select the CDROM/DVD device. 
 
 
 # Installation
