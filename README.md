@@ -177,6 +177,14 @@ login at http://<your_host>:9000
 ```
   % sudo su -
 ```
+# Customization
+  If you would like to customize this to suit your own needs for the host installation you can download the ks_ISLE.cfg and place it on your own repo or website. Then when giving the kernel the ks= URL just update the URL to the new location of your customized ks_ISLE.cfg file. So for example, I have a web server called mylocalsite.edu. I create a location /kickstart and put the ks_ISLE.cfg into this directory. Then in the above instruction's your ks= argument would be: 
+  
+```
+ks=https://mylocalsite.edu/ks_ISLE.cfg
+```
+You can append any commands to the end of this kickstart file after the %post section to customize the host to suit your needs. 
+
 
 # Troubleshooting
 
