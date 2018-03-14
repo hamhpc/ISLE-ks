@@ -1,4 +1,4 @@
-# ISLANDORA ISLE Installation on CentOS 7
+# ISLANDORA ISLE Installation on CentOS 7 using Kickstart
 
 [ISLE Site](https://islandora-collaboration-group.github.io/ISLE/)
 
