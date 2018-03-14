@@ -114,9 +114,14 @@ Make sure you remove the CDROM before rebooting the machine.
 
 # Login to the Host
 
+```
+# ssh islandora@<your host>
+```
+
 # Install docker containers
 
 ```
+# cd /opt/ISLE
 # docker-compose up -d
 ```
 
