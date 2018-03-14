@@ -84,7 +84,7 @@ This step may be optional depending on how your disks are discovered. If it dete
 
 ### 4b.) Delete All
 
-![Delete All](assets/images/delete-all.png)
+![Delete All](images/delete-all.png)
 
 ### 4c.) Reclaim Space
 
