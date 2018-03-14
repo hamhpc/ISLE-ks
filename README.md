@@ -69,7 +69,7 @@ after the word "quiet" add the following:
 ks=https://raw.githubusercontent.com/hamhpc/ISLE-ks/master/ks_ISLE.cfg
 ```
 
-![Enter ks bootloader argument](images/isle-kernel-option.png)
+![Enter ks bootloader argument](images/isle-kernel-options.png)
 
 Press Enter to continue. 
 
