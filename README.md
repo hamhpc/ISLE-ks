@@ -117,24 +117,15 @@ Make sure you remove the CDROM before rebooting the machine.
 # Install docker containers
 
 ```
-# docker-compose build mysql
-# docker-compose up -d mysql
-# docker-compose build fedora
-# docker-compose up -d fedora
-# docker-compose build solr
-# docker-compose up -d solr
-# docker-compose build apache
-# docker-compose up -d apache
+# docker-compose up -d
 ```
 
 # tweak the setup and install a site
 
 ```
-# docker exec -it isle-apache bash
-#  cd /tmp
-#  chmod 777 *.sh
-#  ./make_site.sh
-#  ./install_site.sh
+# docker exec -it isle-apache-ld bash
+#  cd /tmp/isle_drupal_build_tools
+#  ./apache_provision.sh
 ```
 
 # (Optional) Install portainer 
