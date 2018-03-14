@@ -108,9 +108,17 @@ This step may be optional depending on how your disks are discovered. If it dete
 ![Starting Installation](images/starting-installation.png)
 
 ## 9.) Reboot when complete
-Make sure you remove the CDROM before rebooting the machine. 
-
+ When the installation is complete it'll prompt you to reboot the host to start up your newly installed server. 
+ 
+ Please note that if your machine is set to boot the CD/DVD first, then you'll want to remove the CD/DVD before starting up the host.
+ 
+   power off the virtual machine. 
+   Unmount the CD/DVD from the drive. 
+   Then start the virtual machine back up. 
+ 
 ![Reboot when complete](images/reboot.png)
+
+## 10.) 
 
 # Login to the Host
 
