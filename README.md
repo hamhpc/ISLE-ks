@@ -138,7 +138,7 @@ This step may be optional depending on how your disks are discovered. If it dete
 ```
 # docker exec -it isle-apache-ld bash
 #  cd /tmp/isle_drupal_build_tools
-#  ./apache_provision.sh
+#  ./install_isle_ld_site.sh
 ```
 
 # (Optional) Install portainer 
