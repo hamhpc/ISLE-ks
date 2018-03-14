@@ -150,17 +150,6 @@ login at http://<your_host>:9000
 # docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
 ```
 
-## 1.) Select Konsole
- Right click the desktop and choose Konsole
-
-![Boot the host from CDROM](images/open-konsole.png)
-
-## 2.) Start typing commands
-
-![Type commands](images/command-window.png)
-
-
-
 # Software Information
 
   * ISLANDORA is located at [http://islandora.ca](https://islandora.ca)
